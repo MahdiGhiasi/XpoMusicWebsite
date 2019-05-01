@@ -1,0 +1,28 @@
+{
+    "messages": [
+        {
+            "id": "37e16817-e3f2-424a-bde9-e0f79aaade6d",
+            "title": "Test message #1",
+            "content": "Hi,\n\nThis is the first test developer message.",
+            "timestamp": 0
+        },
+        {
+            "id": "37e16817-e3f2-424a-bde9-e0f79aaade6e",
+            "title": "Test message #2",
+            "content": "Hey,\n\nThis is the SECOND test developer message.",
+            "timestamp": 1556715567
+        },
+        {
+            "id": "37e16817-e3f2-424a-bde9-e0f79aaade6f",
+            "title": "Test message #3",
+            "content": "Hi,\n\nThis is the third test developer message.\n This is from a few days back.",
+            "timestamp": 1556409600
+        },
+        {
+            "id": "37e16817-e3f2-424a-bde9-e0f79aaade70",
+            "title": "Test message #4",
+            "content": "Ok. This is the fourth one. From the future!",
+            "timestamp": 1556809200
+        },
+    ]
+}
