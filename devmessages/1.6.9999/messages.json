@@ -1,9 +1,9 @@
 {
     "messages": [
         {
-            "id": "4ca7749c-f31b-4c1e-a57f-6af208c50b2d",
+            "id": "4ca7749c-f31b-4c1e-a57f-6af208c50b2e",
             "title": "What's new",
-            "content": "• Playback bar now changes its color based on the music you're currently listening.\n• Application background is now chosen based on the context of the page you're viewing.",
+            "content": "• Playback bar now changes its color based on the music you're currently listening.\n\n• Application background is now chosen based on the context of the page you're viewing.",
             "timestamp": 0
         },
     ]
