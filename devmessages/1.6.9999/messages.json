@@ -1,9 +1,9 @@
 {
     "messages": [
         {
-            "id": "4ca7749c-f31b-4c1e-a57f-6af208c50b2f",
+            "id": "4ca7749c-f31b-4c1e-a57f-6af208c50b30",
             "title": "What's new",
-            "content": "• Playback bar now changes its color based on the music you're currently listening.\n\n• Window background is now chosen based on the album/playlist art on album and playlist pages.",
+            "content": "• Colorful playback bar resembling the currently playing music.\n\n• Window background selection based on album and playlist art.",
             "timestamp": 0
         },
     ]
