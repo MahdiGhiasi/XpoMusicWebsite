@@ -1,0 +1,4 @@
+{
+	"PlayStatePollIntervalMilliseconds": 8000,
+        "PlayStatePollIntervalMillisecondsWithCompactOverlayOpen": 8000,
+}
