@@ -1,0 +1,10 @@
+{
+    "messages": [
+        {
+            "id": "8cc12570-452e-423a-8585-fb67761a28a8",
+            "title": "Some issues with the app",
+            "content": "Xpotify is currently experiencing some issues, and some functionalities such as mini view might not work properly.\n\nWe're working on fixing these issues as soon as possible.\n\nSorry for the inconvenience.",
+            "timestamp": 1562829189
+        },
+    ]
+}
