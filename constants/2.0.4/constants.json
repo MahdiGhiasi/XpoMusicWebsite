@@ -1,23 +1,31 @@
 {
-    "PlayStatePollIntervalMilliseconds": 20000,
-    "PlayStatePollIntervalMillisecondsWithCompactOverlayOpen": 15000,
-    "HeartbeatEnabled": true,
-    "HeartbeatIntervalSeconds": 600,
-    "StuckDetectSameElapsedCount": 10,
-    "StuckDetectSameElapsedExtraCount": 5,
-    "MaxStuckResolveTryCount": 1,
-    "ModificationRules": [
-      {
-        "UriRegexMatch": "web-player\\.[a-zA-Z0-9]*\\.js",
-        "Type": 2,
-        "AlternativeFileUri": null,
-        "StringModificationRules": [
-          {
-            "RegexMatch": "window\\.matchMedia\\(\"\\(display-mode:\\ standalone\\)\"\\)\\.addEventListener\\(\"change\",function\\(t\\)\\{e\\(t\\.matches\\)}\\)",
-            "ReplaceTo": "window.matchMedia(\"(display-mode: standalone)\").addListener(\"change\",function(t){e(t.matches)})"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "PlayStatePollIntervalMilliseconds": 20000,
+  "PlayStatePollIntervalMillisecondsWithCompactOverlayOpen": 15000,
+  "HeartbeatEnabled": true,
+  "HeartbeatIntervalSeconds": 600,
+  "StuckDetectSameElapsedCount": 10,
+  "StuckDetectSameElapsedExtraCount": 5,
+  "MaxStuckResolveTryCount": 1,
+  "ModificationRules": [
+    {
+      "UriRegexMatch": "web-player\\.[a-zA-Z0-9]*\\.js",
+      "Type": 2,
+      "AlternativeFileUri": null,
+      "StringModificationRules": [
+        {
+          "RegexMatch": "window\\.matchMedia\\(\"\\(display-mode:\\ standalone\\)\"\\)\\.addEventListener\\(\"change\",function\\(t\\)\\{e\\(t\\.matches\\)}\\)",
+          "ReplaceTo": "window.matchMedia(\"(display-mode: standalone)\").addListener(\"change\",function(t){e(t.matches)})"
+        },
+        {
+          "RegexMatch": "var\\ t=window\\.matchMedia\\(\"\\(display-mode:\\ standalone\\)\"\\);\\(t\\.addEventListener\\|\\|t\\.addListener\\)\\(\"change\",function\\(t\\)\\{return\\ e\\(t\\.matches\\)}\\)",
+          "ReplaceTo": "var t=window.matchMedia(\"(display-mode: standalone)\");t.addListener(\"change\",function(t){return e(t.matches)})"
+        },
+        {
+          "RegexMatch": "\"Web Player \\(\".concat\\([a-zA-Z]+.getBrowserName\\(\\),\"\\)\"\\)",
+          "ReplaceTo": "\"Xpo Music\""
+        }
+      ]
+    }
+  ],
+  "WebPlayerBackupEnabled": true
+}
