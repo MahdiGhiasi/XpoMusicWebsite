@@ -31,6 +31,10 @@
         {
           "RegexMatch": "\\{\\.\\.\\.p\\}",
           "ReplaceTo": "Object.assign({}, p)"
+        },
+        {
+          "RegexMatch": "\\{\\.\\.\\.f\\}",
+          "ReplaceTo": "Object.assign({}, f)"
         }
       ]
     },
