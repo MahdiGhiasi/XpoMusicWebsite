@@ -207,3 +207,20 @@
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
+
+.mockup-hero-device-container {
+	transform: scale(1.8);
+}
+
+@media (max-width: 640px) {
+	.mockup-container {
+		transform: scale(0.8);
+	}
+}
+
+
+@media (max-width: 490px) {
+	.mockup-container {
+		transform: scale(0.6) translateY(-70px);
+	}
+}

@@ -25,3 +25,13 @@
 	margin: 0 auto;
 	z-index: 1;
 }
+
+.device-mockup-body {
+	transform: scale(1.7);
+}
+
+@media (max-width: 1000px) {
+	.feature-extended-image {
+		transform: scale(0.6);
+	}	
+}
