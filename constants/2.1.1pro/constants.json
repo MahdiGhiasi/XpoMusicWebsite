@@ -35,6 +35,10 @@
         {
           "RegexMatch": "\\{\\.\\.\\.f\\}",
           "ReplaceTo": "Object.assign({}, f)"
+        },
+        {
+          "RegexMatch": "globalThis",
+          "ReplaceTo": "window"
         }
       ]
     },
