@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<AppInstaller Uri="https://xpomusic.com/get/XpoMusic.appinstaller" Version="2.1.6.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+<AppInstaller Uri="https://xpomusic.com/get/XpoMusic.appinstaller" Version="2.1.6.1" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
   <MainBundle Name="36835MahdiGhiasi.Xpotify" Version="2.1.6.0" Publisher="CN=980F2E87-1831-4300-B1DC-4FDADD353F32" Uri="https://xpomusic.com/get/appx/XpoMusic-2.1.6.0.AppxBundle" />
   <Dependencies>
     <Package Name="Microsoft.UI.Xaml.2.1" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2.11904.5004.0" ProcessorArchitecture="x86" Uri="https://xpomusic.com/get/appx/Dependencies/x86/Microsoft.UI.Xaml.2.1.appx" />
-    <Package Name="Microsoft.NET.Native.Framework.2.2" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2.2.27011.0" ProcessorArchitecture="x86" Uri="https://xpomusic.com/get/appx/Dependencies/x86/Microsoft.NET.Native.Framework.2.2.appx" />
-    <Package Name="Microsoft.NET.Native.Runtime.2.2" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2.2.27011.0" ProcessorArchitecture="x86" Uri="https://xpomusic.com/get/appx/Dependencies/x86/Microsoft.NET.Native.Runtime.2.2.appx" />
-    <Package Name="Microsoft.VCLibs.140.00" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="14.0.26706.0" ProcessorArchitecture="x86" Uri="https://xpomusic.com/get/appx/Dependencies/x86/Microsoft.VCLibs.x86.14.00.appx" />
+    <Package Name="Microsoft.NET.Native.Framework.2.2" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2.2.27912.0" ProcessorArchitecture="x86" Uri="https://xpomusic.com/get/appx/Dependencies/x86/Microsoft.NET.Native.Framework.2.2.appx" />
+    <Package Name="Microsoft.NET.Native.Runtime.2.2" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2.2.28604.0" ProcessorArchitecture="x86" Uri="https://xpomusic.com/get/appx/Dependencies/x86/Microsoft.NET.Native.Runtime.2.2.appx" />
+    <Package Name="Microsoft.VCLibs.140.00" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="14.0.27810.0" ProcessorArchitecture="x86" Uri="https://xpomusic.com/get/appx/Dependencies/x86/Microsoft.VCLibs.x86.14.00.appx" />
     <Package Name="Microsoft.Services.Store.Engagement" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="10.0.19011.0" ProcessorArchitecture="x86" Uri="https://xpomusic.com/get/appx/Dependencies/x86/Microsoft.Services.Store.Engagement.x86.10.0.appx" />
   </Dependencies>
   <UpdateSettings>
